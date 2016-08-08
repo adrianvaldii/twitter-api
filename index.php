@@ -5,10 +5,10 @@ date_default_timezone_set("Asia/Jakarta");
 // load class twitteroauth
 include "twitteroauth/twitteroauth.php";
 // set key for auth rest api
-$consumer_key = "Hx1kvPzu9viS8UyHyHPThhZ4Y";
-$consumer_secret = "mOcGhDOt48menWVvOqJV0WarapiXjz1HOlzYyhq3JQZXtxauwX";
-$access_token = "760474345793740800-erhQUYaWPy6j6PCENh1nTIqgidGeSHV";
-$access_token_secret = "gEs0Q4fKd4DUjJv91f5ZtXmjaYj6aui62pY9mjGJy6Dbh";
+$consumer_key = "";
+$consumer_secret = "";
+$access_token = "";
+$access_token_secret = "";
 // create object twitter
 $twitter = new TwitterOAuth($consumer_key,$consumer_secret,$access_token,$access_token_secret);
 // get tweets from hashtag "#SmartTraffic"
